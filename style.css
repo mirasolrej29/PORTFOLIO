@@ -1,0 +1,71 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body {
+
+  background-color: black;
+  color: rgb(255, 255, 255);
+}
+
+.w3-bar-item {
+      font-size: 24px;
+    }
+
+    .justify {
+        text-align: justify;
+      }  
+  
+      #lightbox {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.8);
+        z-index: 1000;
+      }
+    
+      #lightbox-image {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 90%;
+        max-height: 90%;
+        cursor: pointer;
+      }
+      
+      .scrolling-container {
+        overflow: hidden; /* Hide overflowing content */
+      }
+      
+      .scrolling-content {
+        display: flex; /* Use flexbox for layout */
+        animation: scroll 20s linear infinite; /* Animation for scrolling */
+      }
+      
+      .w3-third {
+        flex: 0 0 auto; /* Prevent items from growing */
+        width: 33.33%; /* Each item takes one-third of the container width */
+      }
+      
+      @keyframes scroll {
+        0% {
+          transform: translateX(0); /* Start scrolling from the left */
+        }
+        100% {
+          transform: translateX(-100%); /* Scroll to the end of the content */
+        }
+      }
+      
+      .w3-container img {
+        max-width: 100%; /* Ensure images don't exceed their container's width */
+        height: auto; /* Maintain aspect ratio */
+      }
+      .scrolling-container {
+        background-image: url('https://i.pinimg.com/originals/63/7a/4d/637a4d42e1738853b2f96ffbbd60622a.gif'); /* Replace 'path_to_your_gif.gif' with the actual path to your GIF */
+        background-size: cover; /* Ensure the background image covers the entire container */
+        background-repeat: no-repeat; /* Prevent the background image from repeating */
+        overflow-x: auto; /* Enable horizontal scrolling */
+        white-space: nowrap; /* Prevent items from wrapping */
+        padding: 20px;
+      }
