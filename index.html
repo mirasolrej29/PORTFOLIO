@@ -21,12 +21,13 @@
     <p class="w3-text-grey"></p>
   </div>
   <div class="w3-bar-block">
-    <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PORTFOLIO</a> 
+    <a href="#creative" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>CREATIVES</a> 
+    <a href="#technical" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-gears fa-fw w3-margin-right"></i></i>TECHNICAL</a>
+    <a href="#certificates" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-file-text fa-fw w3-margin-right"></i></i>CERTIFICATES</a>
     <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a> 
     <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a> 
   </div>
 </nav>
-
 
 
 <!-- Overlay effect when opening sidebar on small screens -->
@@ -35,11 +36,14 @@
 <!-- !PAGE CONTENT! -->
 <div class="w3-main" style="margin-left:300px">
 
-  <!-- Header -->
+
+<!-------------------------------------------- CREATIVES SECTION-------------------------------------------------------------------------------------------->
+
+ 
   <div class="w3-container w3-center" style="margin-bottom: 32px; position: relative;">
-    <header id="portfolio" style="position: relative; padding: 20px; z-index: 1;">
+    <header id="creative" style="position: relative; padding: 20px; z-index: 1;">
       <div class="w3-container w3-center">
-        <h1><b>PORTFOLIO</b></h1>
+        <h1><b>CREATIVES</b></h1>
       </div>
     </header>
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url(https://i.pinimg.com/originals/63/7a/4d/637a4d42e1738853b2f96ffbbd60622a.gif) no-repeat center center / cover; z-index: 0;">
@@ -47,18 +51,148 @@
     </div>
   </div>
   
-
-  <!----------------------------------------------------------------------------------------------------------------------------------------> 
+<!---------------------------------------------------------------------------------------------------------------------------------------->
   <div class="w3-row-padding w3-center">
     <div class="video-container" style="background-color: rgb(58, 58, 58); width: 100%; max-width: 1920px; margin: 0 auto;">
-      <h1 class="w3-center">VIDEO EDITS</h1>
+      <h1 class="w3-center">VIDEO EDIT - THE MEDIEVAL FANTASY EXPERIENCE</h1>
       <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
         <iframe src="https://drive.google.com/file/d/19QtMT7KNROPiaO_Eju_-Kj-ZHbEDB8vH/preview" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
       </div>
     </div>
   </div>
   
-  <div class="w3-row-padding w3-center">
+<!---------------------------------------------------------------------------------------------------------------------------------------->
+
+<div class="w3-container w3-center" style="margin-top:40px; margin-bottom:20px; position:relative;">
+  <h1 style="color:white; font-size:28px; font-weight:600; position:relative; z-index:2;">
+    CROWN & PAW - PET PORTRAIT COMISSIONS
+  </h1>
+
+  <div style="
+    position:absolute;
+    top:0; left:0;
+    width:100%; height:100%;
+    background:url(https://i.pinimg.com/originals/63/7a/4d/637a4d42e1738853b2f96ffbbd60622a.gif) center/cover no-repeat;
+    z-index:0;
+  ">
+    <div style="position:absolute; inset:0; background:rgba(0,0,0,0.5);"></div>
+  </div>
+</div>
+
+<!-- CREATIVE WORKS GRID (2 PER ROW) -->
+<div style="
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap:20px;
+  max-width:900px;
+  margin:auto;
+  padding:10px;
+">
+
+  <div class="w3-container w3-white w3-center" style="padding:12px; border-radius:10px;">
+    <img src="assets/work5.png" style="width:100%; border-radius:10px;" onclick="openLightbox('assets/work5.png')">
+    <p><b>Crown & Paw - Egyptian Queen
+    </b></p>
+  </div>
+
+  <div class="w3-container w3-white w3-center" style="padding:12px; border-radius:10px;">
+    <img src="assets/work2.png" style="width:100%; border-radius:10px;" onclick="openLightbox('assets/work2.png')">
+    <p><b>Crown & Paw - Step Brothers</b></p>
+  </div>
+
+  <div class="w3-container w3-white w3-center" style="padding:12px; border-radius:10px;">
+    <img src="assets/work3.png" style="width:100%; border-radius:10px;" onclick="openLightbox('assets/work3.png')">
+    <p><b>Crown & Paw - British Gangsters</b></p>
+  </div>
+
+  <div class="w3-container w3-white w3-center" style="padding:12px; border-radius:10px;">
+    <img src="assets/work4.png" style="width:100%; border-radius:10px;" onclick="openLightbox('assets/work4.png')">
+    <p><b>Crown & Paw - Young King</b></p>
+  </div>
+
+  <div class="w3-container w3-white w3-center" style="padding:12px; border-radius:10px;">
+    <img src="assets/work1.png" style="width:100%; border-radius:10px;" onclick="openLightbox('assets/work1.png')">
+    <p><b>Crown & Paw - Colonel</b></p>
+  </div>
+
+  <div class="w3-container w3-white w3-center" style="padding:12px; border-radius:10px;">
+    <img src="assets/work6.png" style="width:100%; border-radius:10px;" onclick="openLightbox('assets/work6.png')">
+    <p><b>Crown & Paw - White General</b></p>
+  </div>
+
+</div>
+
+
+  <div style="height: 20px;"></div> 
+  
+  <div class="w3-container w3-center" style="margin-bottom: 32px; position: relative;">
+    <header id="portfolio" style="position: relative; padding: 20px; z-index: 1;">
+      <div class="w3-container w3-center">
+        <h1><b>3D - BLENDER</b></h1>
+      </div>
+    </header>
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url(https://i.pinimg.com/originals/63/7a/4d/637a4d42e1738853b2f96ffbbd60622a.gif) no-repeat center center / cover; z-index: 0;">
+      <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);"></div>
+    </div>
+  </div>
+
+    
+  <div style="height: 20px;"></div>
+
+   <!--Photo Grid-->
+   <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="assets/4.gif" alt="3D Art" style="width:100%; height: 100%" class="w3-hover-opacity" onclick="openLightbox('assets/4.gif', '2D Arts');">
+      <div class="w3-container w3-white w3-center">
+        <p><b>3D Art - Ice Cream</b></p>
+        <p></p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="assets/5.gif" alt="3D Art" style="width:100%; height: 100%" class="w3-hover-opacity" onclick="openLightbox('assets/5.gif', '2D Arts');">
+      <div class="w3-container w3-white w3-center">
+        <p><b>3D Art - Earth</b></p>
+        <p></p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="assets/Background.gif" alt="3D Art" style="width:100%; height: 100%" class="w3-hover-opacity" onclick="openLightbox('assets/Background.gif', '2D Arts');">
+      <div class="w3-container w3-white w3-center">
+        <p><b>3D Art - Nature</b></p>
+        <p></p>
+      </div>
+    </div>
+  </div>
+
+  
+
+  <div id="lightbox" class="w3-modal" onclick="closeLightbox();">
+    <span class="w3-button w3-xxlarge w3-hover-red w3-display-topright" onclick="closeLightbox();">×</span>
+    <img id="lightbox-image" class="w3-modal-content" style="max-width: 100%; max-height: 100%; cursor: pointer;" onclick="closeLightbox();">
+</div>
+
+<div id="lightbox" class="w3-modal" onclick="closeLightbox();">
+  <span class="w3-button w3-xxlarge w3-hover-red w3-display-topright" onclick="closeLightbox();">×</span>
+  <img id="lightbox-image" class="w3-modal-content" style="max-width: 100%; max-height: 100%; cursor: pointer;" onclick="closeLightbox();">
+</div>
+
+
+
+
+<!-------------------------------------------- TECHNICAL SECTION-------------------------------------------------------------------------------------------->
+
+  <div class="w3-container w3-center" style="margin-bottom: 32px; position: relative;">
+    <header id="technical" style="position: relative; padding: 20px; z-index: 1;">
+      <div class="w3-container w3-center">
+        <h1><b>TECHNICAL</b></h1>
+      </div>
+    </header>
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url(https://i.pinimg.com/originals/63/7a/4d/637a4d42e1738853b2f96ffbbd60622a.gif) no-repeat center center / cover; z-index: 0;">
+      <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);"></div>
+    </div>
+  </div>
+  
+<div class="w3-row-padding w3-center">
     <div class="video-container" style="background-color: rgb(58, 58, 58); width: 100%; max-width: 1920px; margin: 0 auto;">
       <h1 class="w3-center">UNITY 3D - ESCAPE: PROLOGUE <a href="https://rejm29.itch.io/escape">Download Game</a></h1>
       <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
@@ -92,326 +226,214 @@
       </a>
     </div>
   </div>
+<!---------------------------------------------------------------------------------------------------------------------------------------->
 
-  <div id="lightbox" class="w3-modal" onclick="closeLightbox();">
-    <span class="w3-button w3-xxlarge w3-hover-red w3-display-topright" onclick="closeLightbox();">×</span>
-    <img id="lightbox-image" class="w3-modal-content" style="max-width: 100%; max-height: 100%; cursor: pointer;" onclick="closeLightbox();">
-</div>
+<div style="margin-top:20px;">
 
-<div id="lightbox" class="w3-modal" onclick="closeLightbox();">
-  <span class="w3-button w3-xxlarge w3-hover-red w3-display-topright" onclick="closeLightbox();">×</span>
-  <img id="lightbox-image" class="w3-modal-content" style="max-width: 100%; max-height: 100%; cursor: pointer;" onclick="closeLightbox();">
-</div>
-<!---------------CROPWATCH----------------------->
+<style>
+  .ui-card-section {
+    background: #000;
+    padding: 25px;
+    border-radius: 14px;
+    max-width: 1100px;
+    margin: auto;
+  }
 
-<div class="scrolling-container"
-     style="
-       margin-top: 20px;
-       overflow-x: auto;
-       overflow-y: hidden;
-       scrollbar-width: none;
-       -ms-overflow-style: none;
-     ">
+  .ui-title {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
 
-  <style>
-    .scrolling-container::-webkit-scrollbar {
-      display: none;
+  .ui-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+  }
+
+  .ui-item {
+    text-align: center;
+    color: white;
+  }
+
+  .ui-item img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+    cursor: pointer;
+    transition: transform 0.25s ease;
+  }
+
+  .ui-item img:hover {
+    transform: scale(1.04);
+  }
+
+  .ui-caption {
+    margin-top: 8px;
+    font-size: 14px;
+    opacity: 0.85;
+  }
+
+  /* RESPONSIVE */
+  @media (max-width: 900px) {
+    .ui-grid {
+      grid-template-columns: repeat(2, 1fr);
     }
-  </style>
+  }
 
-<h1 class="w3-center title-white"
-    style="
-      background-color: rgb(0, 0, 0);
-      width: 100%;
-      max-width: 1920px;
-      margin: 0 auto;
-      padding: 5px;
-      font-size: 40px;
-      font-weight: 600;
-    ">
-  (CAPSTONE PROJECT) UI DESIGN CROPWATCH SYSTEM
-</h1>
+  @media (max-width: 600px) {
+    .ui-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
 
-  <div class="scrolling-content"
-       style="
-         display: flex;
-         gap: 25px;
-         padding: 25px;
-         width: max-content;
-       ">
+<div class="ui-card-section">
 
-    <!-- Image 1 -->
-    <div class="w3-container" style="min-width: 500px;">
-      <img src="assets/crop1.png"
-           alt="UI Design"
-           class="w3-hover-opacity"
-           onclick="openLightbox('assets/crop1.png', 'UI');"
-           style="
-             width: 100%;
-             height: auto;
-             border-radius: 12px;
-             box-shadow: 0 4px 15px rgba(0,0,0,0.5);
-           ">
+  <div class="w3-container w3-center" style="margin-bottom: 32px; position: relative;">
+    <header id="portfolio" style="position: relative; padding: 20px; z-index: 1;">
+      <div class="w3-container w3-center">
+        <h1><b>(CAPSTONE PROJECT) UI DESIGN - CROPWATCH SYSTEM</b></h1>
+      </div>
+    </header>
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url(https://i.pinimg.com/originals/63/7a/4d/637a4d42e1738853b2f96ffbbd60622a.gif) no-repeat center center / cover; z-index: 0;">
+      <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);"></div>
     </div>
-
-    <!-- Image 2 -->
-    <div class="w3-container" style="min-width: 500px;">
-      <img src="assets/crop2.png"
-           alt="UI Design"
-           class="w3-hover-opacity"
-           onclick="openLightbox('assets/crop2.png', 'UI');"
-           style="
-             width: 100%;
-             height: auto;
-             border-radius: 12px;
-             box-shadow: 0 4px 15px rgba(0,0,0,0.5);
-           ">
-    </div>
-
-    <!-- Image 3 -->
-    <div class="w3-container" style="min-width: 500px;">
-      <img src="assets/crop3.png"
-           alt="UI Design"
-           class="w3-hover-opacity"
-           onclick="openLightbox('assets/crop3.png', 'UI');"
-           style="
-             width: 100%;
-             height: auto;
-             border-radius: 12px;
-             box-shadow: 0 4px 15px rgba(0,0,0,0.5);
-           ">
-    </div>
-
-    <!-- Image 4 -->
-    <div class="w3-container" style="min-width: 500px;">
-      <img src="assets/crop4.png"
-           alt="UI Design"
-           class="w3-hover-opacity"
-           onclick="openLightbox('assets/crop4.png', 'UI');"
-           style="
-             width: 100%;
-             height: auto;
-             border-radius: 12px;
-             box-shadow: 0 4px 15px rgba(0,0,0,0.5);
-           ">
-    </div>
-
-    <!-- Image 5 -->
-    <div class="w3-container" style="min-width: 500px;">
-      <img src="assets/crop5.png"
-           alt="UI Design"
-           class="w3-hover-opacity"
-           onclick="openLightbox('assets/crop5.png', 'UI');"
-           style="
-             width: 100%;
-             height: auto;
-             border-radius: 12px;
-             box-shadow: 0 4px 15px rgba(0,0,0,0.5);
-           ">
-    </div>
-
-    <!-- Image 6 -->
-    <div class="w3-container" style="min-width: 500px;">
-      <img src="assets/crop6.png"
-           alt="UI Design"
-           class="w3-hover-opacity"
-           onclick="openLightbox('assets/crop6.png', 'UI');"
-           style="
-             width: 100%;
-             height: auto;
-             border-radius: 12px;
-             box-shadow: 0 4px 15px rgba(0,0,0,0.5);
-           ">
-    </div>
-
   </div>
+
+  <div class="ui-grid">
+
+  <div class="ui-item">
+    <img src="assets/crop1.png" onclick="openLightbox('assets/crop1.png','UI')">
+    <div class="ui-caption">Log in Design</div>
+  </div>
+
+
+  <div class="ui-item">
+    <img src="assets/crop3.png" onclick="openLightbox('assets/crop3.png','UI')">
+    <div class="ui-caption">Welcome Page</div>
+  </div>
+
+
+  <div class="ui-item">
+    <img src="assets/crop2.png" onclick="openLightbox('assets/crop2.png','UI')">
+    <div class="ui-caption">Dashboard Page</div>
+  </div>
+
+
+  <div class="ui-item">
+    <img src="assets/crop4.png" onclick="openLightbox('assets/crop4.png','UI')">
+    <div class="ui-caption">Live Feed Page</div>
+  </div>
+
+  <div class="ui-item">
+    <img src="assets/crop5.png" onclick="openLightbox('assets/crop5.png','UI')">
+    <div class="ui-caption">Reports View</div>
+  </div>
+
+  <div class="ui-item">
+    <img src="assets/crop6.png" onclick="openLightbox('assets/crop6.png','UI')">
+    <div class="ui-caption">Bar Chart Design</div>
+  </div>
+
 </div>
 
+<div style="height: 20px;"></div>
 
-  <div style="height: 20px;"></div>
+<!---------------------------------------------------------------------------------------------------------------------------------------->
 
-   
   <!-- OJT Photo Grid-->
   <div class="w3-container w3-center" style="margin-bottom: 32px; position: relative;">
-    <header id="portfolio" style="position: relative; padding: 20px; z-index: 1;">
-      <div class="w3-container w3-center">
-        <h1><b>I.T TECHNICAL SUPPORT</b></h1>
-      </div>
-    </header>
-    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url(https://i.pinimg.com/originals/63/7a/4d/637a4d42e1738853b2f96ffbbd60622a.gif) no-repeat center center / cover; z-index: 0;">
-      <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);"></div>
+  <header style="position: relative; padding: 20px; z-index: 1;">
+    <div class="w3-container w3-center">
+      <h1><b>I.T TECHNICAL SUPPORT</b></h1>
+    </div>
+  </header>
+
+  <div style="
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: url(https://i.pinimg.com/originals/63/7a/4d/637a4d42e1738853b2f96ffbbd60622a.gif) no-repeat center center / cover;
+    z-index: 0;">
+    <div style="
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background-color: rgba(0,0,0,0.5);">
     </div>
   </div>
-  
-  <div class="w3-row-padding">
-    <div class="w3-third w3-container w3-margin-bottom">
-      <img src="assets/ojt1.jpg" alt="Augmented Reality" style="width: 100%; height: auto;" class="w3-hover-opacity" onclick="openLightbox('assets/ojt1.jpg');">
-      <div class="w3-container w3-white w3-center">
-        <p><b>Software installation, configuration & troubleshooting</b></p>
-      </div>
-    </div>
-    <div class="w3-third w3-container w3-margin-bottom">
-      <img src="assets/ojt2.jpg" alt="Python Programming 2" style="width: 100%; height: auto;" class="w3-hover-opacity" onclick="openLightbox('assets/ojt2.jpg');">
-      <div class="w3-container w3-white w3-center">
-        <p><b>Hardware removal, assembly & identification for both PC & Laptop</b></p>
-      </div>
-    </div>
-    <div class="w3-third w3-container">
-      <img src="assets/ojt3.jpg" alt="Python Basics" style="width:100%; height: auto;" class="w3-hover-opacity" onclick="openLightbox('assets/ojt3.jpg');">
-      <div class="w3-container w3-white w3-center">
-        <p><b>Experienced in inventory management as well as customer support</b></p>
-      </div>
-       </div>
-  </div>
+</div>
 
-<!---------------------------------------------------------------------------------------------------------------------------------------->
-  
-  
-  <!-- Add some space between the certificates and the "ARTS" container -->
-  <div style="height: 20px;"></div> <!-- You can adjust the height value for the desired spacing -->
-  
-  <div class="w3-container w3-center" style="margin-bottom: 32px; position: relative;">
-    <header id="portfolio" style="position: relative; padding: 20px; z-index: 1;">
-      <div class="w3-container w3-center">
-        <h1><b>ARTS</b></h1>
-      </div>
-    </header>
-    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url(https://i.pinimg.com/originals/63/7a/4d/637a4d42e1738853b2f96ffbbd60622a.gif) no-repeat center center / cover; z-index: 0;">
-      <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);"></div>
-    </div>
-  </div>
+<!-- FIXED GRID -->
+<div class="w3-row-padding" style="display:flex; gap:20px; flex-wrap:wrap; justify-content:center;">
 
-    <!-- Add some space between the certificates and the "ARTS" container -->
-  <div style="height: 20px;"></div> <!-- You can adjust the height value for the desired spacing -->
-
-  
-  <!--Third Photo Grid-->
-  <div id="lightbox" class="w3-modal" onclick="closeLightbox();">
-    <span class="w3-button w3-xxlarge w3-hover-red w3-display-topright" onclick="closeLightbox();">×</span>
-    <img id="lightbox-image" class="w3-modal-content" style="max-width: 100%; max-height: 100%; cursor: pointer;" onclick="closeLightbox();">
-  </div>
-  
-  <div class="w3-row-padding">
-    <div class="w3-third w3-container w3-margin-bottom">
-      <img src="assets/1.jpg" alt="2D Art" style="width: 100%; height: auto;" class="w3-hover-opacity" onclick="openLightbox('assets/1.jpg', '2D Arts');">
-      <div class="w3-container w3-white w3-center">
-        <p><b>2D Art</b></p>
-        <p></p>
-      </div>
-    </div>
-    <div class="w3-third w3-container w3-margin-bottom">
-      <img src="assets/2.jpg" alt="2D Art" style="width: 100%; height: auto;" class="w3-hover-opacity" onclick="openLightbox('assets/2.jpg', '2D Arts');">
-      <div class="w3-container w3-white w3-center">
-        <p><b>2D Art</b></p>
-        <p></p>
-      </div>
-    </div>
-    <div class="w3-third w3-container">
-      <img src="assets/3.jpg" alt="2D Art" style="width: 100%; height: auto;" class="w3-hover-opacity" onclick="openLightbox('assets/3.jpg', '2D Arts');">
-      <div class="w3-container w3-white w3-center">
-        <p><b>2D Art</b></p>
-        <p></p>
-      </div>
-    </div>
-  </div>
-  
-
-   <!--Fourth Photo Grid-->
-   <div class="w3-row-padding">
-    <div class="w3-third w3-container w3-margin-bottom">
-      <img src="assets/4.gif" alt="3D Art" style="width:100%; height: 100%" class="w3-hover-opacity" onclick="openLightbox('assets/4.gif', '2D Arts');">
-      <div class="w3-container w3-white w3-center">
-        <p><b>3D Art - Ice Cream</b></p>
-        <p></p>
-      </div>
-    </div>
-    <div class="w3-third w3-container w3-margin-bottom">
-      <img src="assets/5.gif" alt="3D Art" style="width:100%; height: 100%" class="w3-hover-opacity" onclick="openLightbox('assets/5.gif', '2D Arts');">
-      <div class="w3-container w3-white w3-center">
-        <p><b>3D Art - Earth</b></p>
-        <p></p>
-      </div>
-    </div>
-    <div class="w3-third w3-container">
-      <img src="assets/Background.gif" alt="3D Art" style="width:100%; height: 100%" class="w3-hover-opacity" onclick="openLightbox('assets/Background.gif', '2D Arts');">
-      <div class="w3-container w3-white w3-center">
-        <p><b>3D Art - Nature</b></p>
-        <p></p>
-      </div>
-    </div>
-  </div>
-
-<!---------------------------------------------------------------------------------------------------------------------------------------->
-<div style="display: flex; flex-direction: column; gap: 25px;">
-
-  <!-- Item 1 -->
-  <div class="w3-container w3-white w3-center" style="padding: 15px; border-radius: 10px;">
-    <img src="assets/work1.png"
-         alt="Photoshop"
-         style="width:100%; max-width:700px; border-radius:10px;"
+  <div class="w3-container" style="width:300px;">
+    <img src="assets/ojt1.jpg"
+         style="
+           width:100%;
+           height:200px;
+           object-fit:cover;
+           border-radius:10px;
+         "
          class="w3-hover-opacity"
-         onclick="openLightbox('assets/work1.png', '2D Arts');">
-    <p><b>Crown & Paw - Colonel</b></p>
+         onclick="openLightbox('assets/ojt1.jpg');">
+
+    <div class="w3-container w3-white w3-center">
+      <p><b>Software installation, configuration & troubleshooting</b></p>
+    </div>
   </div>
 
-  <!-- Item 2 -->
-  <div class="w3-container w3-white w3-center" style="padding: 15px; border-radius: 10px;">
-    <img src="assets/work2.png"
-         alt="Photoshop"
-         style="width:100%; max-width:700px; border-radius:10px;"
+  <div class="w3-container" style="width:300px;">
+    <img src="assets/ojt2.jpg"
+         style="
+           width:100%;
+           height:200px;
+           object-fit:cover;
+           border-radius:10px;
+         "
          class="w3-hover-opacity"
-         onclick="openLightbox('assets/work2.png', '2D Arts');">
-    <p><b>Crown & Paw - Step Brothers</b></p>
+         onclick="openLightbox('assets/ojt2.jpg');">
+
+    <div class="w3-container w3-white w3-center">
+      <p><b>Hardware removal, assembly & identification</b></p>
+    </div>
   </div>
 
-  <!-- Item 3 -->
-  <div class="w3-container w3-white w3-center" style="padding: 15px; border-radius: 10px;">
-    <img src="assets/work3.png"
-         alt="Photoshop"
-         style="width:100%; max-width:700px; border-radius:10px;"
+  <div class="w3-container" style="width:300px;">
+    <img src="assets/ojt3.jpg"
+         style="
+           width:100%;
+           height:200px;
+           object-fit:cover;
+           border-radius:10px;
+         "
          class="w3-hover-opacity"
-         onclick="openLightbox('assets/work3.png', '2D Arts');">
-    <p><b>Crown & Paw - British Gangsters</b></p>
-  </div>
+         onclick="openLightbox('assets/ojt3.jpg');">
 
-  <!-- Item 4 -->
-  <div class="w3-container w3-white w3-center" style="padding: 15px; border-radius: 10px;">
-    <img src="assets/work4.png"
-         alt="Photoshop"
-         style="width:100%; max-width:700px; border-radius:10px;"
-         class="w3-hover-opacity"
-         onclick="openLightbox('assets/work4.png', '2D Arts');">
-    <p><b>Crown & Paw - Young King</b></p>
-  </div>
-
-  <!-- Item 5 -->
-  <div class="w3-container w3-white w3-center" style="padding: 15px; border-radius: 10px;">
-    <img src="assets/work5.png"
-         alt="Photoshop"
-         style="width:100%; max-width:700px; border-radius:10px;"
-         class="w3-hover-opacity"
-         onclick="openLightbox('assets/work5.png', '2D Arts');">
-    <p><b>Crown & Paw - Egyptian Queen</b></p>
-  </div>
-
-  <!-- Item 6 -->
-  <div class="w3-container w3-white w3-center" style="padding: 15px; border-radius: 10px;">
-    <img src="assets/work6.png"
-         alt="Photoshop"
-         style="width:100%; max-width:700px; border-radius:10px;"
-         class="w3-hover-opacity"
-         onclick="openLightbox('assets/work6.png', '2D Arts');">
-    <p><b>Crown & Paw - White General</b></p>
+    <div class="w3-container w3-white w3-center">
+      <p><b>Inventory management & customer support</b></p>
+    </div>
   </div>
 
 </div>
 
-<!--------------------------------------------------------- -->
-<div style="height: 20px;"></div> <!----------------------------------------------------->
-<!----------------------------------------------------------------------------------------------------------------------------------------> 
+
+<div style="height: 20px;"></div> 
+
+
+
+
+<!-------------------------------------------- CERTIFICATES SECTION-------------------------------------------------------------------------------------------->
+  
+
 
 <div class="w3-container w3-center" style="margin-bottom: 32px; position: relative;">
-  <header id="portfolio" style="position: relative; padding: 20px; z-index: 1;">
+  <header id="certificates" style="position: relative; padding: 20px; z-index: 1;">
     <div class="w3-container w3-center">
       <h1><b>CERTIFICATES</b></h1>
     </div>
@@ -420,10 +442,6 @@
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);"></div>
   </div>
 </div>
-
-
-
- <!-- Certificates Gallery - 2 Columns Responsive Layout -->
 
 <div style="
   display: grid;
@@ -614,10 +632,9 @@
       on April 26, 2024.
     </p>
   </div>
-
 </div>
 
-<!----------------------------------------------------------------------------------------------------------------------------------------> 
+<!-------------------------------------------- ABOUT ME SECTION-------------------------------------------------------------------------------------------->
   
 <!--My introduction--> 
 
@@ -641,7 +658,7 @@
 
 <p class="justify" style="background-color: black; color: white; padding: 20px; border: 5px solid #ccc; margin: 20px; box-shadow: 0 0 10px rgba(0,0,0,0.5);">
   Hello! My name is Rej Mirasol (Regin Dell Mirasol), and I am an IT graduate with a passion for technology. 
-  I have a good foundation in computer programming languages such as C# where I utilize it in Game Development in Unity 3D, 
+  I have a good foundation in computer programming language such as C# where I created various software applications and also I utilize it in Game Development in Unity 3D, 
   as well as experience in web development using HTML, CSS, and JavaScript. Additionally, I am proficient in video editing (using davinci resolve and premiere pro) and photo editing (using photo shop and canva), which has given me a 
   well-rounded skill set to pursue my interests in both technology and creativity.
 </p>
@@ -669,7 +686,7 @@
 
 
   
-<!----------------------------------------------------------------------------------------------------------------------------------------> 
+<!-------------------------------------------- CONTACTS SECTION-------------------------------------------------------------------------------------------->
 
 <hr>
 
@@ -790,10 +807,9 @@
     
 
     </div>
-
   </div>
-
 </footer>
+
 <!-- End page content -->
 </div>
 

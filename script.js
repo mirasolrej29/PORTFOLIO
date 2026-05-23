@@ -21,3 +21,5 @@ function openLightbox(imageSrc, altText) {
     var lightbox = document.getElementById('lightbox');
     lightbox.style.display = 'none';
   }
+
+  
