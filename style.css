@@ -974,5 +974,234 @@ html{
         transform:scale(1);
     }
 }
+/* =========================
+   YOUTUBE SHORTS SECTION
+========================= */
 
+.youtube-shorts-section{
+
+    position:relative;
+
+    overflow:hidden;
+
+    padding:60px 20px;
+
+    margin-top:30px;
+
+    border-radius:20px;
+
+    background:#000;
+}
+
+/* ANIMATED BACKGROUND */
+
+.animated-bg{
+
+    position:absolute;
+
+    inset:0;
+
+    background:
+    linear-gradient(
+        270deg,
+        #00ffff,
+        #ff00ff,
+        #00ffff,
+        #ff0000
+    );
+
+    background-size:800% 800%;
+
+    animation:gradientFlow 12s ease infinite;
+
+    opacity:.18;
+}
+
+@keyframes gradientFlow{
+
+    0%{
+        background-position:0% 50%;
+    }
+
+    50%{
+        background-position:100% 50%;
+    }
+
+    100%{
+        background-position:0% 50%;
+    }
+}
+
+/* CYBER GRID */
+
+.youtube-shorts-section::before{
+
+    content:'';
+
+    position:absolute;
+
+    inset:0;
+
+    background-image:
+    linear-gradient(rgba(0,255,255,.15) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,255,255,.15) 1px, transparent 1px);
+
+    background-size:40px 40px;
+
+    animation:gridMove 15s linear infinite;
+}
+
+@keyframes gridMove{
+
+    from{
+        transform:translateY(0);
+    }
+
+    to{
+        transform:translateY(40px);
+    }
+}
+
+/* CARD */
+
+.shorts-card{
+
+    position:relative;
+
+    z-index:2;
+
+    background:rgba(20,20,20,.85);
+
+    backdrop-filter:blur(12px);
+
+    padding:40px;
+
+    border-radius:20px;
+
+    border:1px solid rgba(255,255,255,.15);
+
+    box-shadow:
+      0 0 20px rgba(0,255,255,.2),
+      0 0 50px rgba(0,255,255,.1);
+}
+
+/* TITLE */
+
+.shorts-title{
+
+    color:white;
+
+    font-size:34px;
+
+    text-shadow:
+        0 0 10px cyan,
+        0 0 25px cyan;
+
+    animation:titlePulse 2s infinite;
+}
+
+@keyframes titlePulse{
+
+    0%{
+        text-shadow:
+        0 0 10px cyan;
+    }
+
+    50%{
+        text-shadow:
+        0 0 20px cyan,
+        0 0 40px cyan;
+    }
+
+    100%{
+        text-shadow:
+        0 0 10px cyan;
+    }
+}
+
+/* DESCRIPTION */
+
+.shorts-text{
+
+    color:white;
+
+    opacity:.9;
+
+    font-size:18px;
+
+    margin-bottom:25px;
+}
+
+/* BUTTON */
+
+.youtube-button{
+
+    display:inline-block;
+
+    padding:16px 35px;
+
+    text-decoration:none;
+
+    color:white;
+
+    font-weight:bold;
+
+    border-radius:15px;
+
+    background:
+    linear-gradient(
+        45deg,
+        #ff0000,
+        #ff5a5a
+    );
+
+    box-shadow:
+      0 0 20px #ff0000,
+      0 0 40px rgba(255,0,0,.5);
+
+    transition:.35s;
+}
+
+.youtube-button:hover{
+
+    transform:
+      translateY(-5px)
+      scale(1.08);
+
+    box-shadow:
+      0 0 30px #ff0000,
+      0 0 60px #ff0000;
+}
+
+/* FLOATING GAMING ICONS */
+
+.youtube-shorts-section::after{
+
+    content:'🎮 ⚔️ 🕹️ 👾';
+
+    position:absolute;
+
+    top:10%;
+
+    left:-20%;
+
+    font-size:45px;
+
+    opacity:.15;
+
+    white-space:nowrap;
+
+    animation:gamingFloat 18s linear infinite;
+}
+
+@keyframes gamingFloat{
+
+    from{
+        transform:translateX(0);
+    }
+
+    to{
+        transform:translateX(140%);
+    }
+}
 /* */
