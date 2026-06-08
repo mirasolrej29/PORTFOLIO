@@ -22,4 +22,37 @@ function openLightbox(imageSrc, altText) {
     lightbox.style.display = 'none';
   }
 
-  
+  function showCreative(sectionId){
+
+    const sections =
+        document.querySelectorAll('.creative-tab');
+
+    sections.forEach(section => {
+
+        section.style.display = 'none';
+
+    });
+
+    document.getElementById(sectionId)
+        .style.display = 'block';
+}
+
+function showTechnical(sectionId){
+
+const sections =
+     document.querySelectorAll('.technical-tab')
+      .forEach(section => {
+
+          section.style.display = 'none';
+
+      });
+
+    document
+      .getElementById(sectionId)
+      .style.display = 'block';
+}
+
+window.onload = function() {
+    showCreative('video-editing-content');
+    showTechnical('unity-content');
+};

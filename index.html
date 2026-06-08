@@ -12,21 +12,47 @@
 
 
 <!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-collapse w3-animate-left" style="z-index:3;width:300px; background: url(https://i.pinimg.com/originals/63/7a/4d/637a4d42e1738853b2f96ffbbd60622a.gif) no-repeat center center; background-size: cover;" id="mySidebar"><br>
+<nav class="w3-sidebar w3-collapse w3-animate-left sidebar-custom" id="mySidebar"><br>
   <div class="w3-container">
     <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
       <i class="fa fa-remove"></i>
     </a>
-    <img src="assets/ResumePic.jpg" style="width:100%;" class="w3-round"><br><br>
     <p class="w3-text-grey"></p>
   </div>
   <div class="w3-bar-block">
+    <a href="#home" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>HOME</a> 
     <a href="#certificates" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-file-text fa-fw w3-margin-right"></i></i>CERTIFICATES</a>
     <a href="#creative" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>CREATIVES</a> 
     <a href="#technical" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-gears fa-fw w3-margin-right"></i></i>TECHNICAL</a>
-    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a> 
-    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a> 
   </div>
+
+  <div class="sidebar-bottom">
+
+    <div class="sidebar-socials">
+
+        <a href="https://www.facebook.com/Deldel29" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Facebook_f_logo_%282021%29.svg/1280px-Facebook_f_logo_%282021%29.svg.png">
+        </a>
+
+        <a href="https://www.instagram.com/rej.m29/" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png">
+        </a>
+
+        <a href="mailto:Regin.Dell.29@gmail.com">
+            <img src="https://cdn.iconscout.com/icon/free/png-256/free-gmail-2981844-2476484.png?f=webp">
+        </a>
+
+        <a href="tel:+639461253973">
+            <img src="https://www.freeiconspng.com/thumbs/phone-icon/chat-phone-icon--stark-iconset--fruityth1ng-10.png">
+        </a>
+
+    </div>
+
+    <div class="sidebar-phone">
+        +63 946 125 3973
+    </div>
+
+ </div>
 </nav>
 
 
@@ -35,8 +61,146 @@
 
 <!-- !PAGE CONTENT! -->
 <div class="w3-main" style="margin-left:300px">
+<!-- WELCOME HERO -->
+<header id="home" style="position: relative; z-index: 1;"></header>
+<section id="welcome-hero">
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+
+        <!-- LEFT SIDE -->
+        <div class="hero-image">
+            <img src="assets/aboutme.png" alt="Rej Mirasol">
+        </div>
+
+        <!-- RIGHT SIDE -->
+        <div class="hero-text">
+
+            <div class="robot-container">
+                🤖
+            </div>
+
+            <h1 class="hero-title">
+                HELLO, I'M REJ
+            </h1>
+
+            <p class="hero-subtitle">
+                IT Graduate • Technical Support • Software Developer • Creative Editor
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+</header>
+<!-------------------------------------------- ABOUT ME SECTION-------------------------------------------------------------------------------------------->
+  
+<!--My introduction--> 
 
 
+
+<p class="justify" style="background-color: black; color: white; padding: 20px; border: 5px solid #ccc; margin: 20px; box-shadow: 0 0 10px rgba(0,0,0,0.5);">
+ Hello! My name is Rej Mirasol (Regin Dell Mirasol), and I am an IT graduate with a passion for technology and creativity. 
+ I have a strong foundation in computer programming, particularly in C#, where I have created various software applications 
+ and also applied it in game development using Unity 3D. I also have experience in web development using HTML, CSS, and JavaScript. 
+ In addition, I am proficient in network configuration and troubleshooting, allowing me to set up, manage, and diagnose basic network systems 
+ and connectivity issues effectively. Furthermore, I have experience in video editing using DaVinci Resolve and Adobe Premiere Pro, 
+ as well as photo editing using Photoshop and Canva, giving me a well-rounded skill set that blends both technical and creative capabilities.
+</p>
+
+<!-------------------------------------------- WORK EXPERIENCE SECTION -------------------------------------------->
+
+<section id="experience" class="experience-section">
+
+    <h1 class="experience-title">
+        WORK EXPERIENCE
+    </h1>
+
+    <div class="experience-container">
+
+       <div class="experience-card">
+            <div class="job-icon">🎬</div>
+
+            <h2 class="job-title video-editor">
+                VIDEO EDITOR
+            </h2>
+
+            <p class="company-name">
+                September 2024 - March 2026
+            </p>
+
+            <p class="job-description">
+                Edited 30-minute to 8-hour-long sensitive legal and court-related
+                video footage while maintaining strict confidentiality and
+                compliance with data privacy and security protocols. Interpreted
+                and fulfilled client editing requests received through support tickets
+                and phone calls.
+            </p>
+        </div>
+
+        <div class="experience-card">
+            <div class="job-icon">🛠️</div>
+
+            <h2 class="job-title it-support">
+                IT SUPPORT
+            </h2>
+
+            <p class="company-name">
+                June 2024 - August 2024
+            </p>
+
+            <p class="job-description">
+                Provides remote technical support by troubleshooting PC software
+                issues using AnyDesk. Diagnoses hardware and network problems,
+                ensuring systems, devices, and internet connections function
+                properly and efficiently.
+            </p>
+        </div>
+
+       <div class="experience-card">
+            <div class="job-icon">🛠️</div>
+
+            <h2 class="job-title it-support">
+                IT Intern
+            </h2>
+
+            <p class="company-name">
+               February 2024 - May 2024
+            </p>
+
+            <p class="job-description">
+                Delivered technical support in a fast-paced BPO environment by
+                troubleshooting hardware, software, peripheral, and internet
+                connectivity issues. Also managed the inventory of company
+                hardware assets while ensuring smooth system operations.
+            </p>
+        </div>
+
+
+        <div class="experience-card">
+            <div class="job-icon">🎨</div>
+
+            <h2 class="job-title photo-editor">
+                PHOTO EDITOR
+            </h2>
+
+            <p class="company-name">
+                October 2021 - February 2023
+            </p>
+
+            <p class="job-description">
+                Edited clients’ pet photos into custom classical-style portraits using
+                Adobe Photoshop. Applied advanced retouching, blending, and
+                face-swapping techniques to create seamless and natural-looking
+                Renaissance and royal-style artworks.
+            </p>
+        </div>
+
+    </div>
+
+</section>
 
   <!-------------------------------------------- CERTIFICATES SECTION-------------------------------------------------------------------------------------------->
   
@@ -93,7 +257,7 @@
     <p style="color:white;"><b>Cisco CCNA</b></p>
     <p style="color:white;">
       This certification was awarded to me by Coursera after completing
-      "CISCO CCNA (200 - 301)" on June 2 2026.
+      "IT Support, Networking and Security Foundations " on June 8 2026.
     </p>
   </div>
 
@@ -310,9 +474,32 @@
  
   <div class="w3-container w3-center" style="margin-bottom: 32px; position: relative;">
     <header id="creative" style="position: relative; padding: 20px; z-index: 1;">
-      <div class="w3-container w3-center">
+      <div id="video-editing" class="w3-row-padding w3-center">
         <h1><b>CREATIVES</b></h1>
-      </div>
+        <div class="portfolio-scroll">
+
+      <a href="javascript:void(0)" class="scroll-card" onclick="showCreative('video-editing-content')">
+        🎬
+        <span>Video Editing</span>
+        </a>
+
+      <a href="javascript:void(0)" class="scroll-card" onclick="showCreative('graphic-design-content')">
+        🎨
+        <span>Graphic Design</span>
+        </a>
+
+      <a href="javascript:void(0)" class="scroll-card" onclick="showCreative('crown-paw-content')">
+        🐶
+        <span>Crown & Paw</span>
+        </a>
+
+      <a href="javascript:void(0)" class="scroll-card" onclick="showCreative('blender-content')">
+        🧊
+        <span>Blender</span>
+        </a>
+
+</div>
+  </div>
     </header>
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url(https://i.pinimg.com/originals/63/7a/4d/637a4d42e1738853b2f96ffbbd60622a.gif) no-repeat center center / cover; z-index: 0;">
       <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);"></div>
@@ -320,6 +507,8 @@
   </div>
   
 <!---------------------------------------------------------------------------------------------------------------------------------------->
+<div id="video-editing-content" class="creative-tab">
+
   <div class="w3-row-padding w3-center">
     <div class="video-container" style="background-color: rgb(58, 58, 58); width: 100%; max-width: 1920px; margin: 0 auto;">
       <h1 class="w3-center">VIDEO EDIT - ABOUT WAR</h1>
@@ -337,9 +526,12 @@
       </div>
     </div>
   </div>
-
+</div>
 <!---------------------------------------------------------------------------------------------------------------------------------------->
-<div class="w3-container w3-center" style="margin-top:40px; margin-bottom:20px; position:relative;">
+
+
+<div id="graphic-design-content" class="creative-tab">
+<div id="graphic-design" class="w3-container w3-center" style="margin-top:40px; margin-bottom:20px; position:relative;">
   <h1 style="color:white; font-size:28px; font-weight:600; position:relative; z-index:2;">
     GRAPHIC DESIGNS - CANVA
   </h1>
@@ -379,13 +571,11 @@
   </div>
 
 </div>
-
-
-<!----------------------------------------------------------------------------------------------------------------------------------------> 
+</div>
 
 <!---------------------------------------------------------------------------------------------------------------------------------------->
-
-<div class="w3-container w3-center" style="margin-top:40px; margin-bottom:20px; position:relative;">
+<div id="crown-paw-content" class="creative-tab">
+<div id="crown-paw" class="w3-container w3-center" style="margin-top:40px; margin-bottom:20px; position:relative;">
   <h1 style="color:white; font-size:28px; font-weight:600; position:relative; z-index:2;">
     CROWN & PAW - PET PORTRAIT COMISSIONS
   </h1>
@@ -443,23 +633,27 @@
   </div>
 
 </div>
+</div>
 
-
-  <div style="height: 20px;"></div> 
-  
+  <div id="blender-content" class="creative-tab">
   <div class="w3-container w3-center" style="margin-bottom: 32px; position: relative;">
-    <header id="portfolio" style="position: relative; padding: 20px; z-index: 1;">
+    <header id="blender" style="position: relative; padding: 20px; z-index: 1;">
       <div class="w3-container w3-center">
         <h1><b>3D - BLENDER</b></h1>
       </div>
     </header>
-    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url(https://i.pinimg.com/originals/63/7a/4d/637a4d42e1738853b2f96ffbbd60622a.gif) no-repeat center center / cover; z-index: 0;">
-      <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);"></div>
+    <div style="
+    position:absolute;
+    top:0; left:0;
+    width:100%; height:100%;
+    background:url('https://i.pinimg.com/originals/63/7a/4d/637a4d42e1738853b2f96ffbbd60622a.gif') center/cover no-repeat;
+    z-index:0;
+  ">
+    <div style="position:absolute; inset:0; background:rgba(0,0,0,0.5);"></div>
     </div>
   </div>
 
     
-  <div style="height: 20px;"></div>
 
    <!--Photo Grid-->
    <div class="w3-row-padding">
@@ -498,7 +692,7 @@
   <img id="lightbox-image" class="w3-modal-content" style="max-width: 100%; max-height: 100%; cursor: pointer;" onclick="closeLightbox();">
 </div>
 
-
+</div>
 
 
 <!-------------------------------------------- TECHNICAL SECTION-------------------------------------------------------------------------------------------->
@@ -507,6 +701,32 @@
     <header id="technical" style="position: relative; padding: 20px; z-index: 1;">
       <div class="w3-container w3-center">
         <h1><b>TECHNICAL</b></h1>
+        <div class="portfolio-scroll">
+
+   <a href="javascript:void(0)" class="scroll-card" onclick="showTechnical('unity-content')">
+    🎮
+      <span>GAME DEV</span>
+      </a>
+
+  <a href="javascript:void(0)" class="scroll-card"
+      onclick="showTechnical('extension-content')">
+      🌐
+<span>WEB DEV</span>
+</a>
+
+<a href="javascript:void(0)" class="scroll-card"
+onclick="showTechnical('cropwatch-content')">
+🌱
+<span>SYSTEMS</span>
+</a>
+
+<a href="javascript:void(0)" class="scroll-card"
+onclick="showTechnical('support-content')">
+🛠
+<span>IT Support</span>
+</a>
+
+</div>
       </div>
     </header>
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url(https://i.pinimg.com/originals/63/7a/4d/637a4d42e1738853b2f96ffbbd60622a.gif) no-repeat center center / cover; z-index: 0;">
@@ -514,8 +734,8 @@
     </div>
   </div>
   
-  
-<div class="w3-row-padding w3-center">
+<div id="unity-content" class="technical-tab">
+<div id="unity-game" class="w3-row-padding w3-center">
     <div class="video-container" style="background-color: rgb(58, 58, 58); width: 100%; max-width: 1920px; margin: 0 auto;">
       <h1 class="w3-center">UNITY 3D - ESCAPE: PROLOGUE <a href="https://rejm29.itch.io/escape">Download Game</a></h1>
       <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
@@ -523,8 +743,11 @@
       </div>
     </div>
   </div>
+</div>
 
-  <div class="w3-row-padding w3-center">
+
+  <div id="extension-content" class="technical-tab">
+  <div id="chrome-extension" class="w3-row-padding w3-center">
     <div class="video-container" style="background-color: rgb(58, 58, 58); width: 100%; max-width: 1920px; margin: 0 auto;">
       <h1 class="w3-center">WEB DEV (CHROME EXTENSION) <a href="https://drive.google.com/uc?export=download&id=1Ab5wDknIPjFqSxW4aPSGN6dybEMkdgaf">Download Extension</a></h1>
       <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
@@ -539,10 +762,10 @@
         <img src="assets/Thumbnail.png" alt="Website Thumbnail" style="width: 100%; height: auto;">
       </a>
     </div>
+  </div> 
   </div>
 <!---------------------------------------------------------------------------------------------------------------------------------------->
 
-<div style="margin-top:20px;">
 
 <style>
   .ui-card-section {
@@ -608,15 +831,13 @@
 
 <div class="ui-card-section">
 
+  <div id="cropwatch-content" class="technical-tab">
   <div class="w3-container w3-center" style="margin-bottom: 32px; position: relative;">
-    <header id="portfolio" style="position: relative; padding: 20px; z-index: 1;">
+    <header id="cropwatch" style="position: relative; padding: 20px; z-index: 1;">
       <div class="w3-container w3-center">
         <h1><b>(CAPSTONE PROJECT) UI DESIGN - CROPWATCH SYSTEM</b></h1>
       </div>
     </header>
-    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url(https://i.pinimg.com/originals/63/7a/4d/637a4d42e1738853b2f96ffbbd60622a.gif) no-repeat center center / cover; z-index: 0;">
-      <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);"></div>
-    </div>
   </div>
 
   <div class="ui-grid">
@@ -658,29 +879,18 @@
 
 <div style="height: 20px;"></div>
 
+</div>
 <!---------------------------------------------------------------------------------------------------------------------------------------->
 
   <!-- OJT Photo Grid-->
+   <div id="support-content" class="technical-tab">
   <div class="w3-container w3-center" style="margin-bottom: 32px; position: relative;">
-  <header style="position: relative; padding: 20px; z-index: 1;">
+  <header id="it-support" style="position: relative; padding: 20px; z-index: 1;">
     <div class="w3-container w3-center">
       <h1><b>I.T TECHNICAL SUPPORT</b></h1>
     </div>
   </header>
 
-  <div style="
-    position: absolute;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-    background: url(https://i.pinimg.com/originals/63/7a/4d/637a4d42e1738853b2f96ffbbd60622a.gif) no-repeat center center / cover;
-    z-index: 0;">
-    <div style="
-      position: absolute;
-      top: 0; left: 0;
-      width: 100%; height: 100%;
-      background-color: rgba(0,0,0,0.5);">
-    </div>
-  </div>
 </div>
 
 <!-- FIXED GRID -->
@@ -735,65 +945,13 @@
   </div>
 
 </div>
-
-
-<div style="height: 20px;"></div> 
-
-
-
-
-
-<!-------------------------------------------- ABOUT ME SECTION-------------------------------------------------------------------------------------------->
-  
-<!--My introduction--> 
-
-<div class="w3-container w3-center" style="margin-bottom: 32px; position: relative;">
-  <header id="about" style="position: relative; padding: 20px; z-index: 1;">
-    <div class="w3-container w3-center">
-      <h1><b>ABOUT ME</b></h1>
-    </div>
-  </header>
-  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url(https://i.pinimg.com/originals/63/7a/4d/637a4d42e1738853b2f96ffbbd60622a.gif) no-repeat center center / cover; z-index: 0;">
-    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);"></div>
-  </div>
-</div>
-
-<div style="display: flex; justify-content: center; align-items: center;">
-  <div class="w3-center" style="border: 5px solid #ccc; padding: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.5); width: 50%; display: inline-block;">
-    <img src="assets/aboutme.png" style="width: 100%; height: auto;" alt="Photo of me">
-  </div>
 </div>
 
 
-<p class="justify" style="background-color: black; color: white; padding: 20px; border: 5px solid #ccc; margin: 20px; box-shadow: 0 0 10px rgba(0,0,0,0.5);">
- Hello! My name is Rej Mirasol (Regin Dell Mirasol), and I am an IT graduate with a passion for technology and creativity. 
- I have a strong foundation in computer programming, particularly in C#, where I have created various software applications 
- and also applied it in game development using Unity 3D. I also have experience in web development using HTML, CSS, and JavaScript. 
- In addition, I am proficient in network configuration and troubleshooting, allowing me to set up, manage, and diagnose basic network systems 
- and connectivity issues effectively. Furthermore, I have experience in video editing using DaVinci Resolve and Adobe Premiere Pro, 
- as well as photo editing using Photoshop and Canva, giving me a well-rounded skill set that blends both technical and creative capabilities.
-</p>
 
-<div style="padding: 25px; border-radius: 12px; background-color: #111; color: white; max-width: 700px; margin: auto; font-family: Arial, sans-serif; box-shadow: 0 4px 12px rgba(0,0,0,0.4);">
-  
-  <h2 style="text-align: center; margin-bottom: 20px; letter-spacing: 2px;">
-    MY SKILLS
-  </h2>
 
-  <div style="line-height: 2;">
 
-    <p>🎬 Video & Photo Editing (Premiere, DaVinci, Photoshop, Davinci) — <strong>Intermediate level</strong></p>
 
-    <p>💻 Software Development (Windows Forms, C#, Python) — <strong>Intermediate Level</strong></p>
-
-    <p>💻 Web Development (HTML, CSS, JavaScript) — <strong>Entry Level</strong></p>
-
-    <p>🎮 Game Development (Unity 3D) — <strong>Intermediate level</strong></p>
-
-    <p>🛠️ IT / Technical Support — <strong>Entry Level</strong></p>
-  </div>
-
-</div>
 
 
 
@@ -803,123 +961,8 @@
 <hr>
 
 <!-- Footer/Contact Section -->
-<footer style="position: relative; padding: 20px; overflow: hidden;">
+<footer>
 
-  <!-- Background GIF -->
-  <div style="
-    position: absolute;
-    inset: 0;
-    background: url('https://i.pinimg.com/originals/63/7a/4d/637a4d42e1738853b2f96ffbbd60622a.gif') no-repeat center center;
-    background-size: cover;
-    z-index: 0;">
-  </div>
-
-  <!-- Dark Overlay -->
-  <div style="
-    position: absolute;
-    inset: 0;
-    background: rgba(0,0,0,0.75);
-    z-index: 1;">
-  </div>
-
-  <!-- Content -->
-  <div class="w3-container w3-padding-large w3-center"
-       style="position: relative; z-index: 2;">
-
-    <h4 id="contact" style="color: white; margin-bottom: 30px;">
-      <b>CONTACT ME</b>
-    </h4>
-
-    <!-- Contact Grid -->
-    <div style="
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 20px;
-    ">
-
-      <!-- Facebook -->
-      <div style="
-        background: rgba(255,255,255,0.08);
-        padding: 20px;
-        border-radius: 12px;
-        backdrop-filter: blur(5px);
-      ">
-        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Facebook_f_logo_%282021%29.svg/1280px-Facebook_f_logo_%282021%29.svg.png"
-             alt="Facebook"
-             style="width:50px; height:50px;">
-
-        <p style="margin-top:10px;">
-          <a href="https://www.facebook.com/Deldel29"
-             target="_blank"
-             rel="noopener"
-             style="color:white; text-decoration:none;">
-            Rej Mirasol
-          </a>
-        </p>
-      </div>
-
-        <!-- Instagram -->
-      <div style="
-        background: rgba(255,255,255,0.08);
-        padding: 20px;
-        border-radius: 12px;
-        backdrop-filter: blur(5px);
-      ">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
-             alt="Instagram"
-             style="width:50px; height:50px;">
-
-        <p style="margin-top:10px;">
-          <a href="https://www.instagram.com/rej.m29/"
-             target="_blank"
-             rel="noopener"
-             style="color:white; text-decoration:none;">
-            @rej.m29
-          </a>
-        </p>
-      </div>
-
-      <!-- Phone -->
-      <div style="
-        background: rgba(0,150,136,0.85);
-        padding: 20px;
-        border-radius: 12px;
-        backdrop-filter: blur(5px);
-      ">
-        <img src="https://www.freeiconspng.com/thumbs/phone-icon/chat-phone-icon--stark-iconset--fruityth1ng-10.png"
-             alt="Phone"
-             style="width:50px; height:50px;">
-
-        <p style="color:white; margin-top:10px;">
-          +639461253973
-        </p>
-      </div>
-
-      <!-- Gmail -->
-      <div style="
-        background: rgba(255,255,255,0.08);
-        padding: 20px;
-        border-radius: 12px;
-        backdrop-filter: blur(5px);
-      ">
-        <img src="https://cdn.iconscout.com/icon/free/png-256/free-gmail-2981844-2476484.png?f=webp"
-             alt="Gmail"
-             style="width:50px; height:50px;">
-
-        <p style="margin-top:10px;">
-          <a href="mailto:Regin.Dell.29@gmail.com"
-             target="_blank"
-             rel="noopener"
-             style="color:white; text-decoration:none;">
-            Regin.Dell.29@gmail.com
-          </a>
-        </p>
-      </div>
-
-    
-
-    </div>
-  </div>
 </footer>
 
 <!-- End page content -->
