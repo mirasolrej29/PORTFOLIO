@@ -18,26 +18,27 @@ body {
         text-align: justify;
       }  
   
-      #lightbox {
-        display: none;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(0, 0, 0, 0.8);
-        z-index: 1000;
-      }
-    
-      #lightbox-image {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        max-width: 90%;
-        max-height: 90%;
-        cursor: pointer;
-      }
+#lightbox{
+    display:none;
+    position:fixed;
+    z-index:99999;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,.95);
+}
+
+#lightbox-image{
+    display:block;
+    margin:auto;
+    max-width:90%;
+    max-height:90%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
       
       .scrolling-container {
         overflow: hidden; /* Hide overflowing content */
@@ -53,15 +54,7 @@ body {
         width: 33.33%; /* Each item takes one-third of the container width */
       }
       
-      @keyframes scroll {
-        0% {
-          transform: translateX(0); /* Start scrolling from the left */
-        }
-        100% {
-          transform: translateX(-100%); /* Scroll to the end of the content */
-        }
-      }
-      
+    
       .w3-container img {
         max-width: 100%; /* Ensure images don't exceed their container's width */
         height: auto; /* Maintain aspect ratio */
