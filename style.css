@@ -1283,3 +1283,168 @@ html{
     }
 
 }
+
+/* ROBOT IN SIDEBAR */
+
+.sidebar-robot{
+
+    font-size:90px;
+
+    text-align:center;
+
+    margin-top:10px;
+
+    animation:robotDance 1s infinite alternate;
+
+    filter:
+        drop-shadow(0 0 10px cyan)
+        drop-shadow(0 0 25px cyan);
+}
+
+.robot-text{
+
+    text-align:center;
+
+    color:cyan;
+
+    font-weight:bold;
+
+    letter-spacing:3px;
+
+    text-shadow:
+        0 0 10px cyan,
+        0 0 20px cyan;
+}
+
+
+/* DANCE ANIMATION */
+
+@keyframes robotDance{
+
+    0%{
+        transform:
+            rotate(-12deg)
+            translateY(0);
+    }
+
+    25%{
+        transform:
+            rotate(12deg)
+            translateY(-10px);
+    }
+
+    50%{
+        transform:
+            rotate(-12deg)
+            translateY(0);
+    }
+
+    75%{
+        transform:
+            rotate(12deg)
+            translateY(-10px);
+    }
+
+    100%{
+        transform:
+            rotate(-12deg)
+            translateY(0);
+    }
+}
+
+.sidebar-robot-img{
+    text-align:center;
+    margin:15px 0;
+}
+
+.sidebar-robot-img img{
+    width:140px;
+    border-radius:15px;
+
+    box-shadow:
+        0 0 15px cyan,
+        0 0 35px cyan;
+
+    transition:.3s;
+}
+
+.sidebar-robot-img img:hover{
+    transform:scale(1.08);
+}
+
+.game-title{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+    padding:15px;
+}
+
+.game-logo{
+
+    width:90px;
+
+    height:90px;
+
+    object-fit:contain;
+
+    border-radius:15px;
+
+    box-shadow:
+        0 0 15px cyan,
+        0 0 30px cyan;
+
+    animation:logoFloat 3s ease-in-out infinite;
+}
+
+@keyframes logoFloat{
+
+    0%{
+        transform:translateY(0);
+    }
+
+    50%{
+        transform:translateY(-8px);
+    }
+
+    100%{
+        transform:translateY(0);
+    }
+}
+
+.game-title h1{
+
+    margin:0;
+
+    color:white;
+
+    text-shadow:
+        0 0 10px cyan;
+}
+
+.game-title a{
+
+    display:block;
+
+    margin-top:8px;
+
+    color:#00ffff;
+
+    text-decoration:none;
+
+    font-size:18px;
+}
+
+.game-title a:hover{
+
+    text-shadow:
+        0 0 10px cyan,
+        0 0 20px cyan;
+}
