@@ -1796,3 +1796,33 @@ html{
     color:white;
 
 }
+/* ===================================
+   HTML GAME
+   =====================*/
+   .game-frame{
+
+    width:100%;
+
+    height:700px;
+
+    margin-top:25px;
+
+    overflow:hidden;
+
+    border-radius:15px;
+
+    background:black;
+
+}
+
+
+
+.game-frame iframe{
+
+    width:100%;
+
+    height:100%;
+
+    border:none;
+
+}
