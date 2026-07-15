@@ -843,14 +843,14 @@ html{
 /* WORK EXPERIENCE */
 
 .experience-section{
-    padding:60px 30px;
+    padding:60px 40px;
     text-align:center;
     position:relative;
 }
 
 .experience-title{
     font-size:48px;
-    font-weight:700;
+    font-weight:600;
     color:white;
     margin-bottom:40px;
     letter-spacing:3px;
@@ -858,7 +858,7 @@ html{
 
 .experience-container{
     display:flex;
-    gap:25px;
+    gap:20px;
     justify-content:center;
     flex-wrap:wrap;
 }
@@ -885,7 +885,7 @@ html{
 
 .company-name{
     color:#00ffff;
-    font-size:18px;
+    font-size:17px;
     margin-bottom:15px;
 }
 
@@ -895,7 +895,7 @@ html{
 }
 
 .job-title{
-    font-size:28px;
+    font-size:25px;
     font-weight:bold;
     margin-bottom:10px;
 }
@@ -941,7 +941,7 @@ html{
     }
 
     50%{
-        letter-spacing:4px;
+        letter-spacing:3px;
         text-shadow:
         0 0 15px #ff4444;
     }
